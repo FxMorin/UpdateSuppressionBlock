@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "updatesuppressionblock",
-  "version": "1.0.0",
+  "version": "1.0.1",
 
   "name": "Update Suppression Block",
   "description": "Placing an Activator Rail ontop of a barrier block will update suppress when the rail turns off",
