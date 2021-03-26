@@ -21,7 +21,7 @@ public class BarrierBlockMixin extends Block {
             if (fromPos.equals(pos.up())) {
                 BlockState stateAbove = world.getBlockState(fromPos);
                 if (stateAbove.isOf(Blocks.ACTIVATOR_RAIL) && !stateAbove.get(PoweredRailBlock.POWERED)) {
-                    throw new CrashException(CrashReport.create(new Throwable("UpdateSuppressionBlock caused this crash on purpose... Have a nice day!"),"UpdateSuppressionBlock"));
+                    throw new StackOverflowError();
                 }
             }
         }
