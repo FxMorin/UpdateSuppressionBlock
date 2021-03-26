@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "updatesuppressionblock.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BarrierBlockMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
