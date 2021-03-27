@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
   "id": "updatesuppressionblock",
-  "version": "1.0.1",
+  "version": "${version}",
 
   "name": "Update Suppression Block",
-  "description": "Placing an Activator Rail ontop of a barrier block will update suppress when the rail turns off",
+  "description": "Placing an Activator Rail on top of a barrier block will update suppress when the rail turns off",
   "authors": [
     "PR0CESS"
   ],
   "contact": {
-    "homepage": "https://web.me/",
-    "sources": "https://github.com/"
+    "homepage": "https://github.com/fxmorin/UpdateSuppressionBlock",
+    "sources": "https://github.com/fxmorin/UpdateSuppressionBlock",
+    "issues": "https://github.com/fxmorin/UpdateSuppressionBlock/issues"
   },
 
   "license": "CC0-1.0",
@@ -30,8 +31,5 @@
     "minecraft": "1.16.x",
     "fabricloader": ">=0.10.0",
     "carpet": "*"
-  },
-  "suggests": {
-    "flamingo": "*"
   }
 }

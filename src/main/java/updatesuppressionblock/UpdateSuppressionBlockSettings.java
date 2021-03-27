@@ -6,7 +6,9 @@ import static carpet.settings.RuleCategory.CREATIVE;
 
 public class UpdateSuppressionBlockSettings
 {
-    @Rule(desc = "UpdateSuppressionBlock", category = {CREATIVE, "extras"})
+    @Rule(
+            desc = "Placing an activator rail on top of a barrier block will update suppress when the rail turns off.",
+            category = {CREATIVE, "extras"}
+    )
     public static boolean updateSuppressionBlock = false;
-
 }
