@@ -23,7 +23,7 @@ public class BarrierBlockMixin extends Block {
 
     @Override
     public int getWeakRedstonePower(BlockState state, BlockView world, BlockPos pos, Direction direction) {
-        return shouldPower ? 15 : 0;
+        return (shouldPower && direction == Direction.DOWN) ? 15 : 0;
     }
 
     @Override
